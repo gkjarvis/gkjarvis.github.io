@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WebGame</title>
+<link href="gamecss.css" rel="stylesheet" type="text/css">
+
+<h1>Can you win Tic-Tac-Toe?</h1>
+</head>
+
+<body>
+        <div id = "inst">
+			<p>Click the boxes to start!</p>
+			<h3 id = "message">Click a box to start!</h3>
+        </div>
+        <table id = "grid" border = "1">
+            <tr class="row" id = "row1">
+                <td class = "data"  id = "data1" onclick ="move(this)"></td>
+				<td class = "data"  id = "data2" onclick ="move(this)"></td>
+                <td class = "data"  id = "data3" onclick ="move(this)"></td>
+            </tr>
+            <tr class="row" id= "row2">
+				<td class = "data"  id = "data4" onclick ="move(this)"></td>
+				<td class = "data"  id = "data5" onclick ="move(this)"></td>
+                <td class = "data"  id = "data6" onclick ="move(this)"></td>
+
+            </tr>
+          <tr class="row" id = "row3">
+                <td class = "data" id = "data7" onclick ="move(this)"></td>
+				<td class = "data" id = "data8" onclick ="move(this)"></td>
+                <td class = "data" id = "data9" onclick ="move(this)"></td>
+            </tr>
+        </table>
+	<button id = "btn" type = "button" onClick="window.location.reload()">Restart</button>
+		
+<script src="WEBgame.js"></script>
+</body>
+</html>
